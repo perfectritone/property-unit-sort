@@ -1,0 +1,4 @@
+Run both programs with an argument for the filename.
+
+./property_unit_sort.rb units.txt
+./property_unit_sort.exs units.txt

@@ -1,7 +1,6 @@
 #!/usr/bin/env elixir
 
-#filename = "units.txt"
-filename = List.first(System.argv) || raise "Enter a filename"
+filename = List.first(System.argv) || raise "You must specify a filename"
 {:ok, units_bitstring} = File.read filename
 units = String.split(units_bitstring, "\n", trim: true)
 
